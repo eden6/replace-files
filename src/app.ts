@@ -1,5 +1,5 @@
 import { input } from "@inquirer/prompts";
-import checkbox, { Separator } from "@inquirer/checkbox";
+import checkbox from "@inquirer/checkbox";
 import { listFiles } from "./commands/listFiles.js";
 import { adjustRelativePath, folderExists, getFileNameFromPath } from "./helpers/path.js";
 import { replaceFile } from "./commands/replaceFile.js";

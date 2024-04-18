@@ -1,4 +1,4 @@
-import fs, { promises } from "fs";
+import fs from "fs";
 
 export const adjustRelativePath = (path: string) => {
     if (['/', '.'].indexOf(path[0]) === -1) {
